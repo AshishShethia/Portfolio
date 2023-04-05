@@ -1,8 +1,10 @@
+import { a } from "maath/dist/objectSpread2-284232a6.esm";
 import {
   mobile,
   backend,
   creator,
   web,
+
   javascript,
   typescript,
   html,
@@ -20,10 +22,11 @@ import {
   tesla,
   shopify,
   carrent,
+  neu,
   jobit,
   tripguide,
   threejs,
-} from "../assets";
+} from "../assets"
 
 export const navLinks = [
   {
@@ -35,9 +38,14 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "project",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
+  
 ];
 
 const services = [
@@ -45,16 +53,13 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+  
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: " Java Developer",
     icon: creator,
   },
 ];
@@ -64,6 +69,8 @@ const technologies = [
     name: "HTML 5",
     icon: html,
   },
+
+  
   {
     name: "CSS 3",
     icon: css,
@@ -112,61 +119,37 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Software Research Intern",
+    company_name: "Blue Eye Soft",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "FEB 2021 - Sept 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with team of 4 and ideated a software for Asteroid detection model with an accuracy of 89% by training the model on a custom dataset with over 1000 images and predicted threat an asteroid can poses towards satellite",
+      "Demonstrated use of different Python libraries such as NumPy for calculating astrometric parameters of asteroid",
+      "Implemented fastest neural network YOLO (You Only Look Once) for object detection and reduced the lead time of the overallproject by 20% as Yolo processed the image at 45 frames per second",
+      "Authored and published 2 research paper at Amos International Conference in September 2021",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
+  { 
+    title: "Web Developer Intern",
+    company_name: "Creative Finserve",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "SEPT 2020 - SEPT 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Coordinated a team of 6 for developing robust CRM incorporating features like, user specific statutory forms and selfassessing loan eligibility for clients seeking loan and also for company to manage its financial loan disbursement functions",
+      "Designed a dynamic UI leveraging Bootstrap which is easily customizable and provides responsive classes using Django",
+      "Employed database with MySQL on PythonAnywhere server for handling live database and enabled data synchronization where details of registered customers are stored and handled securely improving scalability up to 30%",
+      "Build algorithm for Comparing loan criteria assuring users to get deals at minimum 5% less compared to global market",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
@@ -198,9 +181,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Tree Tips",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A MERN Stack website focused on helping users to get best deals on hotel accommodations where users can book and pay for their desired staycation.",
     tags: [
       {
         name: "react",
@@ -211,54 +194,54 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Nodejs",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sanjaytholani/INFO-6150-Final_Project",
   },
   {
-    name: "Job IT",
+    name: "University  Management",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "A multi-level enterprise-based application, consisted of 4 enterprises, 8 organization and 8 roles in Java u, A Structured Portal focused on response and request of users",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Swing",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Mysql",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: neu,
+    source_code_link: "https://github.com/AshishShethia/Assignment-2-shethia_ashish_002776691",
   },
   {
-    name: "Trip Guide",
+    name: "Car Pooling",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      " A database system managming Car pooling where users can be a driver and schedule a trip to any location, while the passengers can book it as a share ride ",
     tags: [
       {
-        name: "nextjs",
+        name: "SQL",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tableau",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Database",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AshishShethia/DMDD_Project",
   },
 ];
 

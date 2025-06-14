@@ -54,13 +54,6 @@ const About = () => {
         Collaborates with cross-functional teams and adopts Agile methodologies and Test-Driven Development to deliver maintainable, production-ready solutions
                 
       </motion.p>
-      <button 
-            type='submit' 
-            className='mt-5 bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            <a href="src\assets\AshishShethiaResume.pdf" target="_blank">Resume</a>
-            
-          </button>
 
       <div className='mt-20 flex flex-wrap gap-40'>
         {services.map((service, index) => (

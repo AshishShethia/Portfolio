@@ -19,6 +19,9 @@ import {
   docker,
   meta,
   starbucks,
+  JPMC,
+  Sigma,
+  Doble,
   tesla,
   shopify,
   carrent,
@@ -124,33 +127,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Research Intern",
-    company_name: "Blue Eye Soft",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "FEB 2021 - Sept 2021",
-    points: [
-      "Collaborated with team of 4 and ideated a software for Asteroid detection model with an accuracy of 89% by training the model on a custom dataset with over 1000 images and predicted threat an asteroid can poses towards satellite",
-      "Demonstrated use of different Python libraries such as NumPy for calculating astrometric parameters of asteroid",
-      "Implemented fastest neural network YOLO (You Only Look Once) for object detection and reduced the lead time of the overallproject by 20% as Yolo processed the image at 45 frames per second",
-      "Authored and published 2 research paper at Amos International Conference in September 2021",
-    ],
-  },
-  { 
-    title: "Web Developer Intern",
-    company_name: "Creative Finserve",
-    icon: tesla,
+    title: "Software Engineer",
+    company_name: "JPMorgan Chase",
+    icon: JPMC, // or local icon if available
     iconBg: "#E6DEDD",
-    date: "SEPT 2020 - SEPT 2021",
+    date: "Sep 2024 – Present",
     points: [
-      "Coordinated a team of 6 for developing robust CRM incorporating features like, user specific statutory forms and selfassessing loan eligibility for clients seeking loan and also for company to manage its financial loan disbursement functions",
-      "Designed a dynamic UI leveraging Bootstrap which is easily customizable and provides responsive classes using Django",
-      "Employed database with MySQL on PythonAnywhere server for handling live database and enabled data synchronization where details of registered customers are stored and handled securely improving scalability up to 30%",
-      "Build algorithm for Comparing loan criteria assuring users to get deals at minimum 5% less compared to global market",
+      "Scaled a loan origination platform handling $500M+ annually using Java, Spring Boot, Angular.",
+      "Built REST APIs for credit scoring, document verification, and credit bureau integrations.",
+      "Boosted fraud detection efficiency with rule-based filters and Spring Cache/Redis.",
+      "Integrated OAuth 2.0 & JWT auth for all microservices; passed audits with zero exceptions.",
+      "Built ETL pipelines with Apache NiFi + custom Java to ingest millions of records/day.",
+      "Optimized MySQL performance with indexing/schema changes; improved API response by 40%.",
+      "Achieved 90%+ unit/integration test coverage using JUnit and Mockito.",
+      "Collaborated cross-functionally to deliver 10+ compliance features, reducing rework by 20%.",
     ],
   },
-  
+  {
+    title: "Software Engineer",
+    company_name: "Doble Engineering",
+    icon: Doble, // Replace with actual logo or local image
+    iconBg: "#383E56",
+    date: "Jan 2024 – July 2024",
+    points: [
+      "Built real-time alerting for power systems using Apache Kafka & .NET Core.",
+      "Migrated legacy time-series data from OSIsoft PI to PostgreSQL via C++ modules.",
+      "Developed Kafka simulator and REST APIs for event testing and processing.",
+      "Implemented Redis caching for Kafka offsets, reducing latency by 40%.",
+      "Containerized Kafka infra using gRPC microservices, Docker, and Kubernetes.",
+      "Deployed CI/CD with Jenkins, reducing release cycle time by 40%.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Sigma InfoTech",
+    icon: Sigma, // Replace with actual logo or local image
+    iconBg: "#E6DEDD",
+    date: "Jun 2020 – July 2022",
+    points: [
+      "Built a scalable e-commerce app with React.js, Node.js, Express.js, and WebSockets.",
+      "Created reusable and accessible UI components with Redux, HTML5, CSS3, and Bootstrap.",
+      "Integrated REST APIs in Node.js and Go for seamless backend workflows.",
+      "Secured payment flows with JWT auth and Stripe API integration.",
+      "Improved backend with async Node.js workflows for better concurrency.",
+      "Deployed apps via GitHub Actions to AWS EC2 & S3; automated builds using Python.",
+      "Wrote Selenium E2E tests and collaborated in Agile teams with JIRA & Git.",
+    ],
+  },
 ];
+
 
 const testimonials = [
   {
@@ -199,7 +224,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/Sanjaytholani/INFO-6150-Final_Project",
+    source_code_link: "https://github.com/AshishShethia/Tree-Trips",
   },
   {
     name: "University  Management",
@@ -220,7 +245,7 @@ const projects = [
       },
     ],
     image: neu,
-    source_code_link: "https://github.com/AshishShethia/Assignment-2-shethia_ashish_002776691",
+    source_code_link: "https://github.com/AshishShethia/AED_Final_Project",
   },
   {
     name: "Car Pooling",

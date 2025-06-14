@@ -48,18 +48,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in CSS and
-        JavaScript, and expertise in frameworks like React, Bootstrap, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-        
+        Software Engineer with 3.5+ years designing and developing scalable backend services and responsive web applications in fast-paced, results-driven
+        environments. Proficient in Java, Spring Boot, React.js, Node.js, and AWS, with expertise in building robust RESTful APIs, distributed systems, and securing
+        applications using JWT and OAuth 2.0. Experienced in CI/CD pipelines, microservices architecture, and real-time data processing with Kafka and Redis.
+        Collaborates with cross-functional teams and adopts Agile methodologies and Test-Driven Development to deliver maintainable, production-ready solutions
+                
       </motion.p>
       <button 
             type='submit' 
             className='mt-5 bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            <a href="src\assets\Ashish Shethia Resume.pdf" target="_blank">Resume</a>
+            <a href="src\assets\AshishShethiaResume.pdf" target="_blank">Resume</a>
             
           </button>
 
